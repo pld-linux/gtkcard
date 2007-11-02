@@ -9,6 +9,7 @@ Source0:	http://www.opensc-project.org/files/gtkcard/testing/%{name}-%{version}.
 # Source0-md5:	ed6454d6d076202e0849b0ba682b3e0a
 URL:		http://www.opensc-project.org/gtkcard/
 BuildRequires:	gtk+2-devel >= 1:2.0.3
+BuildRequires:	opensc
 BuildRequires:	openssl-devel >= 0.9.7
 BuildRequires:	pkgconfig
 Requires:	gtk+2 >= 1:2.0.3
